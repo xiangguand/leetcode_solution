@@ -15,7 +15,8 @@ int numDecodings(char *s)
 	if (s[0] == '0')
 		return 0;
 	int len = strlen(s);
-	if(len == 1) return 1;
+	if (len == 1)
+		return 1;
 
 	int n_1 = 1;
 	int n_2 = 1;
@@ -54,8 +55,8 @@ int main(int argc, char *argv[])
 		if (test_result[i] != res) {
 			printf("[%s], result: %d, got: %d\n", test_string[i],
 			       test_result[i], res);
+			er++;
 		}
-		er++;
 	}
 
 	return er;
