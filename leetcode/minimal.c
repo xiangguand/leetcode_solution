@@ -6,9 +6,9 @@
 #include <assert.h>
 #include <math.h>
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
-	// for(int i=0;i<argc;i++) {
-	//     printf("arg[%d]: %s\n", i, argv[i]);
-	// }
+  // for(int i=0;i<argc;i++) {
+  //     printf("arg[%d]: %s\n", i, argv[i]);
+  // }
 }
